@@ -32,7 +32,7 @@ This project exposed me to learning a lot using Microsoft Power BI.
 - Using Bookmarks
 
 ## Data Sourcing
-The dataset used for this analysis was collected from Code Basics’ website. You can access the dataset through this link
+The dataset used for this analysis was collected from Code Basics’ website. You can access the dataset through this [link](https://codebasics.io/challenge/codebasics-resume-project-challenge)
 
 ## Data Transformation
 The dataset comprises five CSV(Comma Separated Values) files, three dimension tables, and two fact tables. The data was cleaned and transformed using Power Query in Power BI to ensure accuracy and consistency. Data cleaning steps involved;
@@ -55,4 +55,52 @@ The report comprises two pages:
 1. Overview
 2. Property Performance
 
-You can interact with the report [here] ()
+You can interact with the report [here](https://app.powerbi.com/view?r=eyJrIjoiNDAzYmEyMmUtNDA1MC00ZGMwLThjNmMtZWIzZmNkNDE2ZWZmIiwidCI6ImM4N2JkODljLTlmOGMtNDJlNS05NzVkLWQ3ZWYwOWI2OTIxMiJ9)
+
+![](Overview.jpg)
+
+Features:
+- The **Menu Button**, when clicked in the top left corner displays the filters for the month, week number, room class, and navigation button to the Property Performance page while the  filter can be closed by clicking on the "X" button.
+- The **Link Button** on top of the table visually displays the full table when clicked.
+  
+Key Notes:
+- Percentage (%) values at the bottom of KPIs are Week-on-Week changes.
+- **RevPAR** - Revenue Per Available Room
+- **DSRN** - Daily Sellable Room Nights/per night
+- **ADR** - Average Daily Rate/Amount per room
+- **DBRN** -Daily Booked Room Nights/per night
+- **DURN** - Daily Booked Room Nights/per night
+- **Realization%** - The ratio of utilized rooms and booked rooms per night
+- **Occupancy%** - Total number of occupied rooms out of the available.
+
+## Analysis
+
+### Overview
+- The business generated a revenue of 1.69 billion. 
+- The occupancy rate across all locations is slightly above 50%,(57.79%). This means that on average, at least 50% of the rooms are utilized daily. 
+- The average selling price for a room is 12.70K while RevPAR equals 7,337.
+- RevPAR and Occupancy are fluctuating while ADR is constant.
+
+### Property Performance
+![](Property_Performance.jpg)
+
+- There are more guests/customers during weekends (52.87% occupancy) than on weekdays (47.13%). Meanwhile, there's no significant difference in ADR and Realisation on weekdays or weekends.
+- RevPar and Occupancy are fluctuating while ADR is constant. RevPar is a by-product of Occupancy, hence the reason for the fluctuation. A constant ADR shows the pricing is relatively fixed.
+
+## Insights
+- Over three months (May, June, and July) AtliQ Grands were able to generate a revenue of approximately 1.7 billion (1.69b). During this period, Revenue, ADR, occupancy, and RevPar increased from the latest previous week, except for realisation% which decreased by 0.03%.
+- The overall average rating is 3.62. Customer satisfaction has improved over the past three months, with an average rating increase of 1.27%. Although some hotels have ratings lower than the average.
+- Weekends consistently exhibit higher occupancy rates than weekdays. There is no significant difference in ADR for weekdays and weekends. This shows that the hotel is using a flat pricing strategy.
+- Other travel platforms/channels are the primary booking source, generating 40% of total bookings and revenue. Direct offline booking contributes the least to bookings and revenue generation, with 5%.
+- The Average Daily(ADR) Rate is higher on direct offline (hotel premises) compared to other booking platforms.
+- The Luxury room category contributes the majority of revenue and bookings. Mumbai city contributes most of the revenue, followed by Hyderabad, Bangalore, and Delhi.
+- There is a correlation between revenue and average ratings, in that ratings with high ratings tend to generate more revenue.
+
+## Recommendations
+- The rule of demand and supply and price elasticity is different for the travel, tourism, and hospitality industry. Therefore, the hotel should leverage dynamic pricing to increase revenue generation and increase prices for peak days and weekends.
+- Consider differential pricing strategies for their offline booking platforms by implementing targeted marketing campaigns/promotions to boost bookings and in turn increase revenue.
+- AtliQ Grands should pay more attention to customer reviews and ratings and focus on improving customer satisfaction further by addressing critical areas identified in customer reviews.
+- Explore opportunities to increase direct bookings through the hotel's website to reduce dependence on other online platforms.
+
+## Conclusion
+The data analysis performed using Power BI has provided valuable insights into various aspects of hotel management for AtliQ Grands Hotel. The findings and recommendations can help optimize operations, enhance customer satisfaction, and drive revenue growth. Regular monitoring and analysis of key metrics will ensure continued success in the hotel.
