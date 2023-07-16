@@ -46,7 +46,7 @@ The data model in Power BI consists of five tables:
 2. **dim_hotels:** Stores a number that identifies the hotel, property name, category it belongs to (luxury/business), and the city it’s     located in. 
 3. **dim_rooms:** Includes room id and room class. 
 4. **fact_bookings:** Stores information about bookings including booking dates, booking platforms, number of guests, revenue, check-in, and checkout dates. 
-5. **fact_aggregrated_bookings:** Includes successful bookings, hotel id, and capacity. The dimension tables (with the prefix “dim”) have a matching id in the fact tables (with the prefix “fact”). This modeling produces a one-to-many relationship.
+5. **fact_aggregrated_bookings:** Includes successful bookings, hotel id, and capacity. The dimension tables (with the prefix “dim”) have a matching id in the fact tables (with the prefix “fact”). This modeling produces a one-to-many relationship and depicts a star schema.
 ***
 ![](Data_Model.jpg)
 
