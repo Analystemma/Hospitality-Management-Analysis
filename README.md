@@ -63,7 +63,7 @@ Features:
 - The **Menu Button**, when clicked, the top left corner displays the filters for the month, week number, room class, and navigation button to the Property Performance page while the  filter can be closed by clicking on the "X" button.
 - The **Link Button** on top of the table visually displays the full table when clicked.
   
-Key Notes:
+**_Key Notes_**
 - Percentage (%) values at the bottom of KPIs are Week-on-Week changes.
 - **RevPAR** - Revenue Per Available Room
 - **DSRN** - Daily Sellable Room Nights/per night
