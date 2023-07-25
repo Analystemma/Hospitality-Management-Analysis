@@ -55,7 +55,7 @@ The report comprises two pages:
 1. Overview
 2. Property Performance
 
-You can interact with the report [here](https://app.powerbi.com/view?r=eyJrIjoiNDAzYmEyMmUtNDA1MC00ZGMwLThjNmMtZWIzZmNkNDE2ZWZmIiwidCI6ImM4N2JkODljLTlmOGMtNDJlNS05NzVkLWQ3ZWYwOWI2OTIxMiJ9)
+You can interact with the dashboard [here](https://app.powerbi.com/view?r=eyJrIjoiNDAzYmEyMmUtNDA1MC00ZGMwLThjNmMtZWIzZmNkNDE2ZWZmIiwidCI6ImM4N2JkODljLTlmOGMtNDJlNS05NzVkLWQ3ZWYwOWI2OTIxMiJ9)
 
 ![](Overview.jpg)
 
